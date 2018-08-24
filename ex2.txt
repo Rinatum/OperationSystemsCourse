@@ -1,0 +1,500 @@
+   43  ls
+   44  cd ../
+   45  ls
+   46  python manage.py makemigrations snippets
+   47  pip install djangorestframework
+   48  ls
+   49  pip install djangorestframework
+   50  python manage.py makemigrations snippets
+   51  python manage.py migrate
+   52  python manage.py shell
+   53  cd ../
+   54  cd ../
+   55  ls
+   56  ls
+   57  ls
+   58  cd ../
+   59  cd Development
+   60  ls
+   61  cd ~
+   62  ls
+   63  ls
+   64  cd Developments
+   65  cd Development
+   66  ls
+   67  mkdir tutorial
+   68  cd tutorial
+   69  ls
+   70  deactivate
+   71  ls
+   72  cd ../
+   73  ls
+   74  cd tutorial
+   75  ls
+   76  virtualenv lenv
+   77  source lenv/bin/activate
+   78  django-admin.py startproject tutorial
+   79  ls
+   80  cd tutorial
+   81  ls
+   82  python manage.py startapp snippets
+   83  ls
+   84  cd ../
+   85  ls
+   86  pip install django
+   87  pip install djangorestframework
+   88  pip install pygments
+   89  ls
+   90  cd tutorial
+   91  django-admin.py startproject tutorial
+   92  ls
+   93  cd ../
+   94  ls
+   95  ls ../
+   96  cd ../
+   97  ls
+   98  cd tutorial
+   99  ls
+  100  cd tutorial
+  101  ls
+  102  cd tutorial
+  103  ls
+  104  ls
+  105  cd ../
+  106  ld
+  107  ls
+  108  ls
+  109  cd ../
+  110  ls
+  111  cd tutorial
+  112  ls
+  113  python manage.py startapp snippets
+  114  ls
+  115  cd snippets
+  116  ls
+  117  ls
+  118  cd ../
+  119  ls
+  120  python manage.py makemigrations snippets
+  121  python manage.py migrate
+  122  ls
+  123  python manage.py shell
+  124  cd Development
+  125  ls
+  126  cd tutorial
+  127  ls
+  128  cd tutorial
+  129  ls
+  130  cd ../
+  131  ls
+  132  source lenvbin/activate
+  133  source len/bin/activate
+  134  source lenv/bin/activate
+  135  python manage.py shell
+  136  ls
+  137  cd tutorial
+  138  ls
+  139  python manage.py shell
+  140  cd Development
+  141  ls
+  142  cd tutorial
+  143  ls
+  144  source lenv/bin/activate
+  145  python manage.py from snippets.serializers import SnippetSerializer
+  146  serializer = SnippetSerializer()
+  147  python manage.py shell
+  148  cd tutorial
+  149  python manage.py shell
+  150  http http://127.0.0.1:8000/snippets/
+  151  cd Development
+  152  ls
+  153  cd tutorial
+  154  ls
+  155  source lenv/bin/activate
+  156  http http://127.0.0.1:8000/snippets/
+  157  cd Development/tutorial
+  158  source lenv/bin/activate
+  159  http http://127.0.0.1:8000/snippets/ Accept:application/json
+  160  get snippet_list
+  161  http http://127.0.0.1:8000/snippets.json
+  162  http --form POST http://127.0.0.1:8000/snippets/ code="print 123"
+  163  http --json POST http://127.0.0.1:8000/snippets/ code="print 456"
+  164  cd Development
+  165  cd tutorial
+  166  ls
+  167  source lenv/bin/activate
+  168  cd tutorial
+  169  ls
+  170  python manage.py shell
+  171  python manage.py runserver
+  172  python manage.py runserver
+  173  python manage.py runserver
+  174  pip install httpie
+  175  python manage.py runserver
+  176  python manage.py runserver
+  177  python manage.py runserver
+  178  cd ../
+  179  ls
+  180  cd tutorial
+  181  deactivate
+  182  git init
+  183  git add -all
+  184  git add --all
+  185  git commit -m "first commit"
+  186  git remote add origin https://github.com/Rinatum/tutorial.git
+  187  git push -u origin master
+  188  ls
+  189  cd ../
+  190  ls
+  191  source lenv/bin/activate
+  192  ls tutorial
+  193  cd tutorial
+  194  ls
+  195  python manage.py runserver
+  196  python manage.py makemigrations
+  197  python manage.py migrate
+  198  python manage.py makemigrations
+  199  cd Development
+  200  ls
+  201  cd tutorial
+  202  ls
+  203  source lenv/bin/activate
+  204  http http://127.0.0.1:8000/snippets/
+  205  http http://127.0.0.1:8000/snippets
+  206  http http://127.0.0.1:8000/snippets
+  207  http http://127.0.0.1:8000/snippets
+  208  http http://127.0.0.1:8000/snippets
+  209  http http://127.0.0.1:8000/snippets
+  210  http http://127.0.0.1:8000/snippets
+  211  http http://127.0.0.1:8000/snippets?name="lol"
+  212  http http://127.0.0.1:8000/snippets/
+  213  http http://127.0.0.1:8000/snippets/
+  214  http http://127.0.0.1:8000/snippets/
+  215  http http://127.0.0.1:8000/snippets/
+  216  http http://127.0.0.1:8000/snippets/
+  217  http http://127.0.0.1:8000/snippets/
+  218  http http://127.0.0.1:8000/snippets/POST
+  219  http http://127.0.0.1:8000/snippets
+  220  http http://127.0.0.1:8000/snippets/
+  221  curl post  http://127.0.0.1:8000/snippets/
+  222  curl pohttp://127.0.0.1:8000/snippets/
+  223  curl http://127.0.0.1:8000/snippets/
+  224  curl h -d ttp://127.0.0.1:8000/snippets/
+  225  python runserver manage.py
+  226  ls
+  227  cd tutorial
+  228  python runserver manage.py
+  229  python manage.py runserver
+  230  python manage.py runserver
+  231  cd Downloads/
+  232  curl --help
+  233  curl ftp://edisk.university.innopolis.ru:921/edisk/Public/Spring2018/ComputerArchitecture/ComputerArchitecture.ova
+  234  curl "ftp://edisk.university.innopolis.ru:921/edisk/Public/Spring2018/ComputerArchitecture/ComputerArchitecture.ova"
+  235  curl ftp://edisk.university.innopolis.ru:921/edisk/Public/Spring2018/ComputerArchitecture/
+  236  killall Finder
+  237  reboot
+  238  sudo reboot
+  239  cd
+  240  cd Development
+  241  ls
+  242  mkdir innolib
+  243  cd
+  244  cd innolib
+  245  ls
+  246  cd Development
+  247  ls
+  248  cd innolib
+  249  venv innolib
+  250  python3 venv innolib
+  251  python3 venv myvenv
+  252  python3 -m venv myvenv
+  253  ls
+  254  source myvenv/bin/activate
+  255  pip install django
+  256  pip install djangorestframework
+  257  django-admin startproject innolib
+  258  ls
+  259  cd innolib
+  260  ls
+  261  pip install markdown
+  262  pip install django-filter
+  263  ls
+  264  git init
+  265  cd ../
+  266  ls
+  267  cd ../
+  268  ls
+  269  cd tutorial
+  270  ls
+  271  git init
+  272  cd ../
+  273  ls
+  274  cd innolib
+  275  ls
+  276  cd innolib
+  277  ls
+  278  git init
+  279  xcode-select --install
+  280  xcode-select --install
+  281  ls
+  282  git init
+  283  git add -all
+  284  git add --all
+  285  git commit -m "my-first-commit"
+  286  git remote add origin https://github.com/Rinatum/inno.git
+  287  git push -u origin master
+  288  git status
+  289  checkout 
+  290  git checkout
+  291  git switch
+  292  git --help
+  293  git branch
+  294  git checkout 
+  295  git checkout Rinat
+  296  git push --all
+  297  which python3
+  298  Development
+  299  mkdir FlaskProjects
+  300  cd FlaskProjects
+  301  mkdir flask_family_recipe_project
+  302  cd flask_family_recipe_project
+  303  ls
+  304  mkvirtualenv
+  305  virtualenv lenv
+  306  ls
+  307  source lenv/ bin/activate/
+  308  source lenv/bin/activate
+  309  pip install flask
+  310  pip freeze > requirements.txt
+  311  tree
+  312  ls
+  313  rm requirements.txt
+  314  ls
+  315  cd ../
+  316  ls
+  317  deactivate
+  318  mkdir flaskr
+  319  cd flaskdir
+  320  cd flaskdir
+  321  cd flaskr
+  322  python3 virtualenv lenv
+  323  virtualenv lenv
+  324  source lenv/bin/activate
+  325  mkdir flaskr
+  326  cd flaskr
+  327  ls
+  328  mkdir static
+  329  mkdir templates
+  330  ls
+  331  cd Desktop
+  332  ls
+  333  cd InnoFiles
+  334  ls
+  335  cd sqlite-tools-osx-x86-3220000
+  336  ls
+  337  cd sqlite3
+  338  .quit sqlite3
+  339  sqlite3
+  340  cd Desktop
+  341  cd InnoFiles
+  342  ls
+  343  cd sqlite-tools-osx-x86-3220000
+  344  ls
+  345  sqlite3 db/chinook.db
+  346  ls
+  347  sqlite3 chinook.db
+  348  ls
+  349  cd PycharmProjects
+  350  ls
+  351  git clone https://github.com/Rinatum/InnoLibrary-1
+  352  cd InnoLibrary-1
+  353  ls
+  354  cd ../
+  355  ls
+  356  InnoLibrary-1
+  357  python3 InnoLibrary-1
+  358  ls
+  359  cd Desktop/
+  360  touch mysql_pass.txt
+  361  codebind
+  362  ~codebind$
+  363  cd ./\./
+  364  cd ../
+  365  ls
+  366  cd usr
+  367  cd /usr
+  368  ls
+  369  local/mysql/bin/mysql -uroot -p
+  370  local/mysql/bin/mysql -uroot -p
+  371  local/mysql/bin/mysql -uroot -p12345
+  372  /anaconda3/bin/jupyter_mac.command ; exit;
+  373  git fetch upstream
+  374  git pull upstream/master
+  375  git fetch upstream
+  376  git pull upstream/master
+  377  git merge upstream/master
+  378  git fetch upstream
+  379  git merge upstream/master
+  380  git fetch upstream
+  381  git merge upstream/master
+  382  git fetch upstream
+  383  git merge upstream/master
+  384  git fetch upstream
+  385  git merge upstream/master
+  386  git merge upstream/master
+  387  cd /Users/rinatmullahmetov/Development 
+  388  git init
+  389  git clone https://github.com/Rinatum/CubeRoot.git
+  390  ls -la
+  391  cd CubeRoot/
+  392  ls
+  393  git status
+  394  git add .
+  395  git status
+  396  git commit -m "Init project"
+  397  git push
+  398  pip install logging
+  399  --upgrade pip
+  400  pip install --upgrade pip
+  401  pip install logging
+  402  pip install Logging
+  403  ls
+  404  cd CLionProjects
+  405  ls
+  406  cd hard_porn_a_2
+  407  git checkout a_2
+  408  git branch
+  409  git checkout -b  a_2
+  410  git branch
+  411  git branch
+  412  git branch
+  413  git branch -m vetka_Rinata
+  414  git push origin :a_2 vetka_Rinata
+  415  git branch
+  416  git branch
+  417  --set-upstream-to=origin/vetka_Rinata vetka_Rinata
+  418  --set-upstream-to=origin/vetka_Rinata vetka_Rinata
+  419  git checkout svo
+  420  git checkout -b  svo
+  421  git checkout master
+  422  git checkout master && git reset --hard HEAD~ && git push -f origin master
+  423  git checkout master && git revert --hard HEAD~ && git push -f origin master
+  424  git checkout svo
+  425  git checkout master
+  426  git checkout master && git reset --hard HEAD~ && git push -f origin master
+  427  git checkout master && git reset --hard HEAD~ && git push -f origin master
+  428  git revert --hard HEAD~ && push -f origin master
+  429  git revert --hard HEAD~ && push -f origin master
+  430  git revert --hard HEAD~ && push -f origin master
+  431  git reset --hard HEAD~ && push -f origin master
+  432  git checkout svo
+  433  pip install File
+  434  pip status
+  435  pip3 install File
+  436  pip install --upgrade pip==9.0.3
+  437  sudo apt-get install python3-dev
+  438  pip install --upgrade pip
+  439  ls
+  440  cd PycharmProjects
+  441  ls
+  442  cd WebParser
+  443  ls
+  444  cd tests
+  445  ls
+  446  cd ../
+  447  ls
+  448  cd 
+  449  Nano ~/.bash_profile
+  450  ls
+  451  e
+  452  Nano .bash_profile
+  453  atom .bash_profile
+  454  adb version
+  455  atom .bash_profile
+  456  fastboot --version
+  457  cd adb
+  458  ls
+  459  adb version
+  460  ls
+  461  cd adb
+  462  ls
+  463  cd adb
+  464  ls
+  465  cd ../
+  466  cd MyPixel
+  467  ls
+  468  cd sailfish-njh47b
+  469  ls
+  470  fastboot devices
+  471  fastboot flashing unlock
+  472  fastboot --slot other flash bootloader ./bootloader-sailfish-8996-012001-1704121145.img
+  473  fastboot set_active other
+  474  fastboot flash radio ./radio-sailfish-8996-012901-1702171013.img
+  475  fastboot reboot-bootloader
+  476  fastboot --skip-secondary update ./image-sailfish-njh47b.zip
+  477  man cat
+  478  man cat
+  479  docker
+  480  docker run --rm -it -v /Users/rinatmullahmetov/Downloads/docker:/tmp
+  481  docker run --rm -it -v /Users/rinatmullahmetov/Downloads/docker:/tmp gcc bash
+  482  textedit 
+  483  nano
+  484  docker run --rm -it -v /Users/rinatmullahmetov/Downloads/docker:/tmp gcc bash
+  485  history
+  486  cd week1
+  487  cd ~
+  488  ls
+  489  cd week1
+  490  cd /usr
+  491  ls
+  492  cd bin
+  493  ls
+  494  ls | sort -r
+  495  ls | sort -r > ~/week1/ex1.txt
+  496  cd ~
+  497  cd week1
+  498  ls
+  499  cat ex1.txt
+  500  ls | sort -r |
+  501  ls
+  502  cd week1/
+  503  ls
+  504  cat ex1.txt 
+  505  cd ~/Music/
+  506  cd
+  507  cd /
+  508  ls
+  509  cd home/
+  510  ls
+  511  ls
+  512  cd ~
+  513  ls
+  514  cd week1
+  515  touch test
+  516  ls
+  517  cat test
+  518  cat > test
+  519  cat test
+  520  echo > test 
+  521  echo < test 
+  522  cat test 
+  523  echo test
+  524  echo sdfghjk
+  525  echo > test
+  526  cat echo
+  527  cat test 
+  528  echo > test hui
+  529  cat test
+  530  echo < test
+  531  cat test
+  532  mv test test1
+  533  ls
+  534  nano test1
+  535  ls
+  536  ls /usr/bin | grep gcc  > ex1.txt
+  537  cat ex1.txt 
+  538  ls /usr/bin
+  539  chmod +x 
+  540  ды
+  541  ls
+  542  history > ex2.txt
