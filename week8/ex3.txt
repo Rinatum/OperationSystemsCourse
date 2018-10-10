@@ -1,0 +1,17 @@
+top - 13:39:09 up 13 days,  4:40,  2 users,  load average: 0.00, 0.
+Tasks: 121 total,   1 running, 112 sleeping,   8 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.0 sy,  0.0 ni, 99.6 id,  0.1 wa,
+KiB Swap:  2093052 total,     1916 used,  2091136 free.   181780 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+17763 r.mulla+  20   0    5232   2020    924 S   0.0  0.2   0:00.00 ex2
+  
+
+top - 13:39:12 up 13 days,  4:40,  2 users,  load average: 0.00, 0.01, 0.05
+Tasks: 121 total,   1 running, 112 sleeping,   8 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.2 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   1006120 total,   924088 used,    82032 free,   140916 buffers
+KiB Swap:  2093052 total,     1916 used,  2091136 free.   181792 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+17763 r.mulla+  20   0    8316   4924    924 S   0.0  0.5   0:00.00 ex2

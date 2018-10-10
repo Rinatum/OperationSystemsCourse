@@ -1,0 +1,3 @@
+Physical address is adress on real memory cell but virtual
+ address is addres on page table which maps on real memory.
+As a consequence, few vertual adresses can point on one real memory cell.
