@@ -1,0 +1,6 @@
+-rw-r--r--  1 rinatmullahmetov  staff  2 Oct 24 12:52 _ex3.txt
+660: make a file readable and writable only by users and groups
+775: make a file readable writable and executable for users and groups but
+only readable and executable for owners
+777: give all permissions for everybody
+
