@@ -1,0 +1,32 @@
+                               1024kb
+sync:
+
+real	0m0.011s
+user	0m0.002s
+sys	0m0.004s
+
+async:
+
+real	0m0.008s
+user	0m0.002s
+sys	0m0.003s
+
+			      1<<30 kb
+
+sync:
+
+real	0m0.017s
+user	0m0.002s
+sys	0m0.004s
+
+async:
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+
+So, the asynchronous implementation is faster because it doesn't wait
+for some manipulations such as system calls or disk access.
+WIth increasing of buffer size, difference between speeds
+ of tho methods is also increases.
+ 
